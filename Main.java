@@ -14,6 +14,8 @@ public class Main {
         userInput = sc.next();
         userInput = userInput.toLowerCase();
 
+
+        //This is a comment added for Lab 5
         for (int i = userInput.length() - 1; i < userInput.length() && i >= 0; i--) {
             if ((int) userInput.charAt(i) <= 57) {
                 value = (int) userInput.charAt(i) - 48;
